@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import data from "../mock-data.json";
 
 function Table() {
-    const[contacts,setContacts] = useState(data);
+    
 
   return (
     <div>
