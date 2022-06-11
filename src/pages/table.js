@@ -3,7 +3,9 @@ import data from "../mock-data.json";
 
 function Table() {
     
-
+const[contacts,setContacts] = useState(data);
+    
+    setContacts();
   return (
     <div>
     <table>
